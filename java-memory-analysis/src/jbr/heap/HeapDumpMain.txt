@@ -1,0 +1,7 @@
+run HeapDumpMain in debug mode and keep debug on sysout
+
+cmd>jmap -dump:file=dump1.hprof <PID>
+	* dump1 -our own file name
+	
+cmd>jhat dump1.hprof
+
