@@ -1,0 +1,1 @@
+>To Build .proto file and generate Java Files, Right Click pom.xml->Run As-Maven generate-sources

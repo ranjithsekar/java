@@ -1,0 +1,16 @@
+syntax = "proto3";
+package protobuf;
+
+option java_package = "jbr.java.protobuf";
+option java_outer_classname = "ProductDetails";
+
+message Product {
+	int32 id =1;
+	string name =2;
+	int32 price =3;
+	int32 discount =4;
+}
+
+message ProductData{
+	repeated Product product = 1;
+}

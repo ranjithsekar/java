@@ -1,0 +1,15 @@
+syntax = "proto2";
+package protobuf;
+
+option java_package = "jbr.java.protobuf";
+option java_outer_classname = "EmployeeDetails";
+
+message Employee {
+    required string name = 1;
+    required int32 id = 2;
+    optional string email = 3;
+}
+ 
+message EmployeeData {
+    repeated Employee employee = 1;
+}
