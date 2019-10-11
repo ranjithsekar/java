@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package com.clv.proto2;
+
+option java_package="jbr.proto";
+option java_outer_classname="Proto2Example";
+
+message sample {
+	required string name = 1;
+	required string address = 2;
+}

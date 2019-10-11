@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<project default="proto" basedir=".">
+
+	<property file="build.properties" />
+
+	<target name="proto">
+		<echo message="${protoc.dir}" />
+		<exec executable="${protoc.dir}/protoc">
+			<arg value="-I=${basedir}/proto" />
+			<arg value="--java_out=${basedir}/src" />
+			<arg value="${basedir}/proto/sample2.proto" />
+		</exec>
+	</target>
+
+</project>
