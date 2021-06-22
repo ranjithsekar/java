@@ -1,4 +1,4 @@
-package jbr.javaex.util.list;
+package jbr.javaexp.util.list;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import jbr.javaex.util.Person;
+import jbr.javaexp.util.Person;
 
 public class ListExampl {
 

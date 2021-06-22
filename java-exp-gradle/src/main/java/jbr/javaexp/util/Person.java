@@ -1,4 +1,4 @@
-package jbr.javaex.util;
+package jbr.javaexp.util;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package jbr.javaex.util.set;
+package jbr.javaexp.util.set;
 
 import java.util.Arrays;
 import java.util.HashSet;

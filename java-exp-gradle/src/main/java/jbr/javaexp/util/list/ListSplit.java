@@ -1,4 +1,4 @@
-package jbr.javaex.util.list;
+package jbr.javaexp.util.list;
 
 import java.util.ArrayList;
 import java.util.Arrays;

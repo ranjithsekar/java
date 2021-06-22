@@ -1,4 +1,4 @@
-package jbr.javaex.util.date;
+package jbr.javaexp.util.date;
 
 import java.text.DateFormat;
 import java.text.ParseException;
